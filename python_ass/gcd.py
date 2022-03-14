@@ -58,11 +58,3 @@ print("Result of gcd is: ",numm)
 # for number to word
 num = input("Enter numnum ")
 print(convert_num_to_words(num))
-
-
-
-
-
-
-
-
