@@ -5,7 +5,3 @@
 5)select * from EmployeePosition order by salary fetch first 5 rows only;   			#query for 5th one
 6) select * from EmployeeInfo where empfname NOT IN ('Sanjay','Sonia');   			#query for 6th one
 7) select department, COUNT(*) from EmployeeInfo group by department order by department asc;  #query for 7th one
-8)..
-
-
-
