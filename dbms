@@ -1,7 +1,7 @@
-1) select * from e4 where department = 'Admin';  					#query for 1st one
-2) select substring(emplname,1,4) from e4;       					#query for 2nd one
-3) select * from e5 where salary between 50000 and 100000;    			#query for 3rd one
-4) select * from e4 where empfname like 'S%';   					#query for 4th one
-5)select * from e5 order by salary fetch first 5 rows only;   			#query for 5th one
-6) select * from e4 where empfname NOT IN ('Sanjay','Sonia');   			#query for 6th one
-7) select department, COUNT(*) from e4 group by department order by department asc;  #query for 7th one
+1) select * from EmployeeInfo where department = 'Admin';  					#query for 1st one
+2) select substring(emplname,1,4) from EmployeeInfo;       					#query for 2nd one
+3) select * from EmployeePosition where salary between 50000 and 100000;    			#query for 3rd one
+4) select * from EmployeeInfo where empfname like 'S%';   					#query for 4th one
+5)select * from EmployeePosition order by salary fetch first 5 rows only;   			#query for 5th one
+6) select * from EmployeeInfo where empfname NOT IN ('Sanjay','Sonia');   			#query for 6th one
+7) select department, COUNT(*) from EmployeeInfo group by department order by department asc;  #query for 7th one
